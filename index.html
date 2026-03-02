@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="सांगलीतील श्री सिद्धी फुड प्रॉडक्टस् – घरगुती, शुद्ध आणि चवदार उपवासाचे पदार्थ व ऑर्डर प्रमाणे खास पदार्थ उपलब्ध. आजच संपर्क करा.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>श्री सिद्धी फुड प्रॉडक्टस् | Siddhi Food Products</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-frame">
+    <!-- Header / Navigation -->
+    <header class="site-header" id="siteHeader">
+      <div class="main-nav">
+        <a class="brand" href="#top" aria-label="श्री सिद्धी फुड प्रॉडक्टस्">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 80 80" focusable="false" aria-hidden="true">
+              <circle cx="40" cy="40" r="36" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M28 32 L40 22 L52 32 L48 38 L40 34 L32 38 Z" fill="currentColor" opacity="0.9"/>
+              <path d="M30 48 Q40 52 50 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">श्री सिद्धी फुड प्रॉडक्टस्</span>
+            <span class="brand-tag">चविने खाणार... त्याला सिद्धी फूडस् देणार....</span>
+          </span>
+        </a>
+
+        <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#products" class="nav-link">Products</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="cart-btn" id="cartBtn" aria-label="View cart">
+            <span class="cart-icon" aria-hidden="true">🛒</span>
+            <span class="cart-text">Cart</span>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero"id="home">
+  
+      <!-- FULL WIDTH HERO IMAGE -->
+      <div class="hero-bg">
+        <img src="images/hero.png" alt="उपवासाचे घरगुती पदार्थ">
+      </div>
+    
+      <!-- HERO CONTENT -->
+      <div class="hero-content-wrapper">
+        <div class="hero-content">
+          <p class="hero-kicker">घरगुती • शुद्ध • चवदार</p>
+          <h1 class="hero-title">श्री सिद्धी फुड प्रॉडक्टस्</h1>
+          <p class="hero-subtitle">
+            उपवासाचे स्पेशल पदार्थ आणि ऑर्डर प्रमाणे खास पदार्थ.
+          </p>
+    
+          <div class="hero-cta">
+            <a class="primary-cta" href="#products">पदार्थ पाहा</a>
+            <a href="https://wa.me/91+917709786387" class="primary-cta" href="#contact">व्हॉट्सॲपवर ऑर्डर करा</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section hero-highlight"id="about">
+      <div class="highlight-wrapper">
+    
+        <div class="highlight-text">
+          <h2 class="section-title">आमच्या पदार्थांची खासियत</h2>
+          <center><p class="highlight-subtitle">
+               परंपरा, शुद्धता आणि चव – प्रत्येक पदार्थात</center>
+          </p>
+          <p class="highlight-desc">
+            श्री सिद्धी फुड प्रॉडक्ट्स येथे प्रत्येक पदार्थ पारंपरिक घरगुती पद्धतीने,
+            स्वच्छ व सुरक्षित वातावरणात तयार केला जातो. उत्तम प्रतीचे साहित्य,
+            नैसर्गिक घटक आणि अनुभवातून आलेली चव हे आमचे वैशिष्ट्य आहे.
+          </p>
+        </div>
+    
+        <div class="highlight-grid">
+          <div class="highlight-item">🏠 घरगुती पद्धतीने तयार</div>
+          <div class="highlight-item">🌾 शुद्ध व दर्जेदार साहित्य</div>
+          <div class="highlight-item">🔥 ऑर्डरनुसार ताजे पदार्थ</div>
+          <div class="highlight-item">🙏 उपवास व सणासाठी योग्य</div>
+        </div>
+    
+      </div>
+    </section>
+    <!-- Products Section -->
+    <section class="content-section products-section" id="products">
+      <h3 class="sub-title" id="upvas">स्पेशल उपवासाचे पदार्थ</h3>
+      <div class="products-grid" id="upvasProducts"></div>
+
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <h3 class="sub-title" id="order">ऑर्डर प्रमाणे उपलब्ध पदार्थ</h3>
+      <div class="products-grid" id="orderProducts"></div>
+    </section>
+
+    <!-- Contact & Address Section -->
+    <section class="content-section contact-section" id="contact">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h2 class="section-title">संपर्क करा</h2>
+         <center><p class="section-subtitle">
+            ऑर्डर, चौकशी किंवा माहिती साठी आमच्याशी थेट संपर्क साधा</center>
+          </p>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>पत्ता</strong>
+              <p>गाळा नं. 1, अक्षर रेसिडन्सी, पाटणे गॅस शेजारी, चांदणी चौक, सांगली.</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div>
+              <strong>फोन</strong>
+              <p>+91 917709786387</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💬</span>
+            <div>
+              <strong>WhatsApp</strong>
+              <p>ऑर्डरसाठी थेट व्हॉट्सॲप करा</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <h3>आजच ऑर्डर करा</h3>
+          <p>
+            घरगुती, ताजे आणि चविष्ट पदार्थ – थेट व्हॉट्सॲपवर ऑर्डर करा.
+          </p>
+          <a href="https://wa.me/917709786387" class="primary-cta">
+            WhatsApp वर संपर्क करा
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+      <div class="cart-modal">
+        <div class="cart-header">
+          <h3>Your Order</h3>
+          <button class="close-cart-btn" id="closeCartBtn" aria-label="Close">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-footer">
+          <button class="checkout-btn" id="checkoutBtn">Send Order on WhatsApp</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>श्री सिद्धी फुड प्रॉडक्टस् — आपल्या विश्वासाला मान देणारे घरगुती पदार्थ</p>
+      <p><strong>श्री सिद्धी फुड प्रॉडक्ट्स</strong> © All Rights Reserved</p>
+      <p class="footer-address"></p>
+    </footer>
+  </div>
+
+  <script src="script.js"defer></script>
+</body>
+</html>
