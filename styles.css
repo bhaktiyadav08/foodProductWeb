@@ -77,8 +77,8 @@ body {
 
 /* Logo wrapper */
 .brand-mark {
-  width: 52px;            /* Bigger logo */
-  height: 52px;
+  width: 64px;            /* Bigger logo */
+  height: 64px;
   color: var(--primary);
   flex-shrink: 0;
   display: flex;
@@ -86,10 +86,10 @@ body {
   justify-content: center;
 }
 
-/* SVG inside logo */
-.brand-mark svg {
+.brand-mark img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   display: block;
 }
 
@@ -212,8 +212,8 @@ body {
 
 .hero-kicker {
   display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--accent-light);

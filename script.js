@@ -63,7 +63,7 @@
         image: './images/gulPoli.png',
       },
       {
-        id: 'order-6',
+        id: 'order-2',
         name: 'खुसखुशीत तिळाची वडी',
         description: 'तिळाची कुरकुरीत वडी. चवदार आणि पौष्टिक.',
         image: './images/tilwadi',
@@ -87,7 +87,7 @@
         image: './images/ravaLadoo.png',
       },
       {
-        id: 'order-2',
+        id: 'order-6',
         name: 'शेंगदाणा पोळी',
         description: 'शेंगदाण्याची भरलेली पोळी. उपवासात खाण्यासाठी.',
         image: './images/shengdanaPoli.png',
@@ -105,6 +105,19 @@
         description: 'पातळ पोह्याचा कुरकुरीत चिवडा. नाश्त्यासाठी आदर्श.',
         image: './images/chivda',
       },
+      {
+        id: 'order-9',
+        name: 'नाचणीचे लाडू',
+        description: 'घरगुती पद्धतीने तयार केलेले पौष्टिक नाचणीचे लाडू. लोह, कॅल्शियम व फायबरने समृद्ध.',
+        image: './images/nachniLado.png',
+      },
+      {
+        id: 'order-10',
+        name: 'मूग लाडू',
+        description: 'शुद्ध मूग डाळीपासून बनवलेले स्वादिष्ट मूग लाडू. पचनास हलके व प्रथिनांनी समृद्ध .',
+        image: './images/moongLado.png',
+      }
+
     ],
   };
 
